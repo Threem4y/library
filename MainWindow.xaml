@@ -1,0 +1,30 @@
+﻿<Window x:Class="Libramony.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Libramony"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="RusButton" Content="Rus" HorizontalAlignment="Stretch" Grid.Column="0" VerticalAlignment="Center" Grid.Row="1" Click="RusButton_Click"/>
+        <Button x:Name="EngButton" Content="Eng"  HorizontalAlignment="Stretch" Grid.Column="1" VerticalAlignment="Center" Grid.Row="1" Click="EngButton_Click"/>
+        <Button x:Name="SerelializeButton" Content="Serilialize"  HorizontalAlignment="Stretch" Grid.Column="2" VerticalAlignment="Center" Grid.Row="1" Click="SerelializeButton_Click" />
+        <Button x:Name="DarkButton" Content="Dark"  HorizontalAlignment="Stretch" Grid.Column="3" VerticalAlignment="Center" Grid.Row="1" Click="DarkButton_Click" />
+        <Button x:Name="LightButton" Content="Light"  HorizontalAlignment="Stretch" Grid.Column="4" VerticalAlignment="Bottom" Grid.Row="0" Click="LightButton_Click"/>
+        <TextBox x:Name="CasualTbx" Text="Write Someone Here" HorizontalAlignment="Stretch" Grid.Column="4" VerticalAlignment="Center" Grid.Row="0" TextChanged="CasualTbx_TextChanged" />
+        <Button x:Name="DeserelializeButton" Grid.Column="2" Content="Desereliaze" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Click="DeserelializeButton_Click"/>
+
+    </Grid>
+</Window>
