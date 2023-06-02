@@ -16,6 +16,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using LibramonyClass;
 using Newtonsoft.Json;
+using CustomLib;
 
 namespace Libramony
 {
@@ -27,6 +28,7 @@ namespace Libramony
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void CasualTbx_TextChanged(object sender, TextChangedEventArgs e)
@@ -34,36 +36,36 @@ namespace Libramony
 
         }
 
-        private static void DeserelializeButton_Click<T>(object sender, RoutedEventArgs e)
-        {
-           
-
-            
-        }
-
-        private static void SerelializeButton_Click(object sender, RoutedEventArgs e, List<string> Jesons)
-        {
-
-        }
-
         private void LightButton_Click(object sender, RoutedEventArgs e)
         {
-
+            Mainfracture.Theme = "LightTheme";
         }
 
         private void DarkButton_Click(object sender, RoutedEventArgs e)
         {
-
+            Mainfracture.Theme = "DarkTheme";
         }
 
         private void EngButton_Click(object sender, RoutedEventArgs e)
         {
-
+           
         }
 
         private void RusButton_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void DeserelializeButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            var desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            MessageBox.Show(Saver.Deserialize<string>($"{desktop}\\SerialTest.txt")); 
+
+        }
+
+        private void SerelializeButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Saver.Serialize(CasualTbx.Text);
         }
     }
 }

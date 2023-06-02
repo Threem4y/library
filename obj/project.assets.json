@@ -64,6 +64,19 @@
           }
         }
       },
+      "CustomLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CustomLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CustomLib.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "LibramonyClass/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -195,6 +208,11 @@
         "packageIcon.png"
       ]
     },
+    "CustomLib/1.0.0": {
+      "type": "project",
+      "path": "../CustomLib/CustomLib.csproj",
+      "msbuildProject": "../CustomLib/CustomLib.csproj"
+    },
     "LibramonyClass/1.0.0": {
       "type": "project",
       "path": "../LibramonyClass/LibramonyClass.csproj",
@@ -203,6 +221,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "CustomLib >= 1.0.0",
       "LibramonyClass >= 1.0.0",
       "MaterialDesignThemes >= 4.10.0-ci268",
       "Newtonsoft.Json >= 13.0.3"
@@ -235,6 +254,9 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
+            "D:\\VS проекты\\CustomLib\\CustomLib.csproj": {
+              "projectPath": "D:\\VS проекты\\CustomLib\\CustomLib.csproj"
+            },
             "D:\\VS проекты\\LibramonyClass\\LibramonyClass.csproj": {
               "projectPath": "D:\\VS проекты\\LibramonyClass\\LibramonyClass.csproj"
             }

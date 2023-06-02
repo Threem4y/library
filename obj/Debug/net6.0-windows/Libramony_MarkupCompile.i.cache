@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\VS проекты\Libramony\App.xaml
-11407045341
+6-90594691
 
-5-2130463393
-1991691883152
-MainWindow.xaml;
+331548775198
+198-1038294879
+CustomLib\FullDictionary.xaml;CustomLib\Themes\DarkTheme.xaml;CustomLib\Themes\Generic.xaml;CustomLib\Themes\LightTheme.xaml;LanguageLib\Themes\Generic.xaml;MainWindow.xaml;
 
 True
 

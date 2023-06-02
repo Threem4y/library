@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eNK1ccjAoTWbMgPLVKJJW1wKS8irL4kzQ81pZ4k1rtsyj8d6i6o/frDuSN99XuEFXiMe2P0SKnpLR+NMukHOTg==",
+  "success": true,
+  "projectFilePath": "D:\\VS проекты\\LibramonyClass\\LibramonyClass.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Andre\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

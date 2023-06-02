@@ -1,0 +1,12 @@
+D:\VS проекты\LibramonyClass\bin\Debug\net6.0\LibramonyClass.deps.json
+D:\VS проекты\LibramonyClass\bin\Debug\net6.0\LibramonyClass.dll
+D:\VS проекты\LibramonyClass\bin\Debug\net6.0\LibramonyClass.pdb
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.csproj.AssemblyReference.cache
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.GeneratedMSBuildEditorConfig.editorconfig
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.AssemblyInfoInputs.cache
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.AssemblyInfo.cs
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.csproj.CoreCompileInputs.cache
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.dll
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\refint\LibramonyClass.dll
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\LibramonyClass.pdb
+D:\VS проекты\LibramonyClass\obj\Debug\net6.0\ref\LibramonyClass.dll

@@ -26,3 +26,6 @@ D:\VS проекты\Libramony\obj\Debug\net6.0-windows\refint\Libramony.dll
 D:\VS проекты\Libramony\obj\Debug\net6.0-windows\Libramony.pdb
 D:\VS проекты\Libramony\obj\Debug\net6.0-windows\Libramony.genruntimeconfig.cache
 D:\VS проекты\Libramony\obj\Debug\net6.0-windows\ref\Libramony.dll
+D:\VS проекты\Libramony\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+D:\VS проекты\Libramony\bin\Debug\net6.0-windows\CustomLib.dll
+D:\VS проекты\Libramony\bin\Debug\net6.0-windows\CustomLib.pdb
